@@ -1,0 +1,1 @@
+<div class="headerLogo"><a href="index.html" title="Golf Community"><img src="images/logo-golf.png" alt="Golf Community" height="100" width="285" /></a></div><!-- end of class headerLogo -->

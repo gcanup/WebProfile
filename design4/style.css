@@ -1,0 +1,98 @@
+ 
+hr {
+	border-color: red;}
+
+.banner {
+	background:url(images/banner.jpg);
+	padding: 50px 0;
+	position:relative; 
+	
+	}
+  
+header {
+    background: rgba(255, 255, 0, 0.16);
+    padding: 20px 100px;
+}
+
+.banner h2 {
+	color: #cc0200;
+	padding: 20px 0;
+	font-weight:600;}
+.banner h3, .banner p {
+	color: #fff;
+	font-weight:600;} 
+.banner p{
+	padding: 20px 0;
+	line-height: 2;}
+.student img {
+    position: absolute;
+    bottom: 361px;
+    right: 200px;
+    width: 400px;
+}
+
+
+/*******menu ***/
+
+.navbar {
+	
+	background:#cc0200;
+	min-height: 40px;
+	margin-bottom: 0;
+	}
+.navbar-nav {
+	width:100%;}
+.navbar-nav li {
+	width: 15%;
+	border-left:solid 2px #fff;
+	padding: 5px 0;}
+
+.navbar-nav>li>a {
+padding: 6px 15px;
+color:#fff;
+padding-top: 10px;
+}
+
+.navbar .navbar-nav>li>a{
+	color: #fff;}
+
+.navbar .navbar-nav>li:hover a{
+	color: #fff;}
+
+
+/**********content ******/
+.content {
+	background: #edddbb;}
+.lft-cnt {
+	padding: 20px 0;}
+.top-lft img {
+	width: 100px;}
+.top-lft p {
+	text-align:justify;
+	line-height:2;}
+	
+.rgt-cnt {
+	padding-left: 30px;}
+.rgt-cnt h2{
+	    font-size: 27px;}
+.rgt-cnt li {
+	padding-left: 100px;}
+.rgt-cnt ul {
+	list-style:none;}
+.rgt-cnt a {
+	color:#cc0200;
+	text-decoration:underline;}
+
+.btm-cnt {
+	padding: 20px 0;}
+.btm-cnt h3 {
+	color:#cc0200;}
+.btm-cnt img {
+	width:100px;}
+
+/*********footer ****/
+footer {
+	background: #cc0200;}
+footer p{
+	color:#fff;
+	padding: 20px 0;}

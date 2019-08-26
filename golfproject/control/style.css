@@ -1,0 +1,574 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #43701d;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7f7f7f;
+	text-align: center;
+}
+
+img {
+	border: none;
+}
+
+form {
+	border: none;
+}
+
+.clean {
+	clear: both;
+}
+
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+
+/* ------------------------- Wrapper starts ------------------------- */
+#wrapper {
+	width: 100%;
+	display: table;
+	background: url(../images/bg-wrapper.jpg) top center no-repeat;
+	text-align: left;
+}
+/* ------------------------- Wrapper ends ------------------------- */
+
+/* ------------------------- main starst ------------------------- */
+#main {
+	width: 990px;
+	display: block;
+	margin: 0px auto;
+}
+/* ------------------------- main ends ------------------------- */
+
+
+/* ------------------------- header starts ------------------------- */
+#header {
+	width: 990px;
+	display: block;
+}
+
+#header .headerLogo {
+	width: 285px;
+	height: 100px;
+}
+/* ------------------------- header ends ------------------------- */
+
+
+/* ------------------------- nav starts ------------------------- */
+#nav {
+	width: 970px;
+	height: 27px;
+	display: block;
+	background: url(../images/bg-nav.png) no-repeat;
+	color: #43701d;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 13px 0 0 20px;
+	margin-bottom: 5px;
+}
+
+* html #nav {
+	width: 970px;
+	height: 27px;
+	display: block;
+	background: #e0f1d2;
+	color: #43701d;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 13px 0 0 20px;
+	margin-bottom: 5px;
+}
+
+#nav a {
+	color: #43701d;
+	text-decoration: none;
+	float: left;
+	margin-right: 18px;
+	display: block;
+}
+
+#nav a:hover {
+	color: #142c00;
+	text-decoration: underline;
+}
+
+#nav a.navActive {
+	color: #142c00;
+}
+/* ------------------------- nav ends ------------------------- */
+
+
+/* ------------------------- container starts ------------------------- */
+#container {
+	width: 988px;
+	display: block;
+	background: url(../images/bg-container.gif) repeat-y #fff;
+	padding: 0 1px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+/* containerL starts */
+#containerL {
+	width: 688px;
+	display: block;
+	margin-right: 1px;
+	float: left;
+}
+
+#containerL h1 {
+	background: url(../images/bg-h1-container.gif) bottom repeat-x;
+	font-size: 18px;
+	font-weight: bold;
+	color: #43701d;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+#containerL p {
+	text-align: justify;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+#containerL a {
+	color: #43701d;
+	text-decoration: underline;
+	background: url(../images/bullet-001.gif) left no-repeat;
+	padding-left: 15px;
+}
+
+#containerL a:hover {
+	color: #112500;
+	text-decoration: none;
+}
+
+#containerL .clTxtMedium {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#containerL .clBanner {
+	width: 688px;
+	display: block;
+}
+
+#containerL .clContent {
+	width: 660px;
+	display: block;
+	padding: 14px;
+}
+
+#containerL .clContent a.clPdf {
+	background: url(../images/icon-pdf.gif) left no-repeat;
+	background-position: 0 0;
+	padding: 2px 0 2px 22px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#containerL .clScore {
+	width: 660px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#containerL .clScoreROne {
+	width: 640px;
+	display: block;
+	background: #7f7f7f;
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#containerL .clScoreRTwo {
+	width: 640px;
+	display: block;
+	background: #d8d8d8;
+	padding: 10px;
+	color: #404040;
+}
+
+#containerL .clScoreRThree {
+	width: 640px;
+	display: block;
+	background: #e5e5e5;
+	padding: 10px;
+	color: #404040;
+}
+
+#containerL .clSubOne {
+	width: 64px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+#containerL .clSubTwo {
+	width: 166px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+#containerL .clSubThree {
+	width: 92px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+#containerL .clSubFour {
+	width: 80px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+#containerL .clSubFive {
+	width: 90px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+#containerL .clSubSix {
+	width: 98px;
+	float: left;
+	display: block;
+}
+/* containerL ends */
+
+/* containerR starts */
+#containerR {
+	width: 299px;
+	display: block;
+	background: url(../images/bg-containerR.gif) repeat-x;
+	float: left;
+	color: #fff;
+}
+
+#containerR h2 {
+	background: url(../images/bg-h2-containerR.gif) bottom repeat-x;
+	font-size: 16px;
+	font-weight: bold;
+	color: #a2b990;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#containerR p {
+	text-align: justify;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+
+#containerR a {
+	color: #43701d;
+	text-decoration: underline;
+	background: url(../images/bullet-001.gif) left no-repeat;
+	padding-left: 15px;
+}
+
+#containerR a:hover {
+	color: #112500;
+	text-decoration: none;
+}
+
+#containerR .crAdBox {
+	width: 270px;
+	height: 118px;
+	display: block;
+	margin-bottom: 16px;
+}
+
+#containerR .crAdBox a {
+	background: none;
+}
+/* containerR ends */
+
+/* crLogin starts */
+#crLogin {
+	width: 269px;
+	height: 193px;
+	display: block;
+	background: url(../images/bg-login.jpg) top center no-repeat;
+	padding: 15px;
+}
+
+#crLogin a {
+	color: #aabe99;
+	text-decoration: underline;
+	background: none;
+	padding: 0;
+}
+
+#crLogin a:hover {
+	color: #112500;
+	text-decoration: none;
+}
+
+#crLogin .crlTxtBox {
+	width: 180px;
+	height: 16px;
+	border: 1px solid #7e9d65;
+	color: #7f7f7f;
+	padding: 4px 6px;
+}
+
+#crLogin .crlSelect {
+	width: 180px;
+	border: 1px solid #7e9d65;
+	color: #7f7f7f;
+	padding: 4px 6px;
+	font-size: 11px;
+}
+
+#crLogin .crlRow {
+	width: 269px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#crLogin .crlRowL {
+	width: 75px;
+	display: block;
+	float: left;
+	padding-top: 8px;
+}
+
+#crLogin .crlRowR {
+	width: 194px;
+	display: block;
+	float: left;
+}
+/* crLogin ends */
+
+/* crNews starts */
+#crNews {
+	width: 269px;
+	display: block;
+	padding: 15px;
+}
+
+#crNews ul {
+	list-style-type: none;
+}
+
+#crNews li {
+	background: url(../images/bullet-002.gif) left no-repeat;
+	background-position: 0 6px;
+	margin-bottom: 10px;
+	padding-left: 16px;
+	line-height: 16px;
+}
+
+#crNews a {
+	color: #fff;
+	text-decoration: underline;
+	background: none;
+	padding: 0;
+	font-weight: bold;
+}
+
+#crNews a:hover {
+	color: #112500;
+	text-decoration: none;
+}
+
+#crNews .crnDate {
+	font-size: 9px;
+}
+
+#crNews .crnTitle {
+	font-size: 12px;
+	font-weight: bold;
+}
+/* crNews ends */
+
+/* ------------------------- container ends ------------------------- */
+
+
+
+/* ------------------------- footer starts ------------------------- */
+#footer {
+	width: 960px;
+	display: block;
+	color: #a1b88e;
+	padding: 10px 15px;
+}
+
+#footer a {
+	color: #a1b88e;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footer p {
+	margin-bottom: 4px;
+}
+/* ------------------------- footer ends ------------------------- */
+
+
+/* ------------------------- content page starts ------------------------- */
+/* cGuide starts */
+#cGuide {
+	width: 660px;
+	display: block;
+	background: url(../images/bg-cGuide.gif) right bottom no-repeat;
+	margin-bottom: 10px;
+}
+
+#cGuide a {
+	background: none;
+	padding: 0px;
+	font-size: 12px;
+}
+
+#cGuide .cgRow {
+	width: 660px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+#cGuide .cgNumber {
+	width: 30px;
+	display: block;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #e2e1dd;
+	margin-right: 10px;
+}
+
+#cGuide .cgLinks {
+	width: 620px;
+	display: block;
+	float: left;
+	padding-top: 4px;
+}
+/* cGuide ends */
+
+/* signup starts */
+#signup {
+	width: 660px;
+	display: block;
+	margin: 20px 0 10px 0;
+}
+
+#signup .suLightTxt {
+	color: #ccc;
+}
+
+#signup .suInpTxt {
+	width: 230px;
+	padding: 5px 5px;
+	color: #999;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	border: 1px inset #ccc;
+}
+
+#signup .suMain {
+	width: 660px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#signup .suColL {
+	width: 100px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-top: 10px;
+	line-height: 18px;
+}
+
+#signup .suColR {
+	width: 550px;
+	display: block;
+	float: left;
+	line-height: 28px;
+}
+/* signup ends */
+
+/* events starts */
+#events {
+	width: 660px;
+	display: block;
+	margin: 0 0 10px 0;
+}
+
+#events .eventsPaging {
+	width: 660px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#events .eventsPaging a {
+	padding: 6px 10px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	background: #eee;
+	text-decoration: none;
+	margin-right: 1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#events .eventsPaging a:hover {
+	background: #ccc;
+}
+
+#events ul {
+	list-style-type: none;
+}
+
+#events li {
+	background: url(../images/bullet-001.gif) left no-repeat;
+	background-position: 0 6px;
+	margin-bottom: 10px;
+	padding-left: 16px;
+	line-height: 16px;
+	text-align: justify;
+}
+
+#events .eDate {
+	font-size: 9px;
+}
+
+#events .eTitle {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#events a {
+	background: none;
+	padding: 0px;
+}
+/* events ends */
+/* ------------------------- content page ends ------------------------- */
+
+
+/* ------------------------- For Menu starts ------------------------- */
+/* ------------------------- For Menu ends ------------------------- */
+

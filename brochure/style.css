@@ -1,0 +1,448 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+header {
+	background:#303030;}
+.container{
+	padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto
+}
+.clear {
+	clear: both;
+}
+
+/*************header****************/
+.logo p{
+	font-family: Roboto;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 500;
+	padding:33px 0 0 100px;	
+}
+.navbar-default {
+	background-color: #303030;
+	border: none;
+	padding:10px 100px 0px 0px;
+}
+.navbar-default .navbar-nav>li>a {
+	font-family: Roboto;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 500;
+    color: #fff;
+}
+/*************banner*************/
+.banner{
+	background: url(images/header_edited.png);
+	background-size: cover;
+	height: 327px;
+	padding-top: 125px;
+}
+.banner h3{
+	font-family: Roboto;
+	font-size: 28px;
+	color: #e75152;
+	font-weight: 900;
+}
+.banner p{
+	font-family: Roboto;
+	font-size: 16px;
+	color: #2e2e2e;
+	font-weight: 400;
+}
+
+/*******************info*****************/
+.info {
+	padding: 25px 0px;
+}
+.line {
+	border-top: solid 2px #db4d4c;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.info p{
+	font-family: Source Sans Pro;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 17px;
+	color: #515151;
+	font-weight: 400;
+}
+/**************our ******************/
+ .our {
+	/* padding-left: 40px; */
+ }
+ hr {
+	border-top: 2px solid #db4d4c; 
+ }
+ 
+ .red{
+	float: left;
+	color: #e75152;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+}
+.grey{
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+	color: #515151;
+	padding-left: 45px;
+}
+
+/************packages*****/
+.packages {
+	border-top: solid 130px #db4d4c;
+	margin-top: 100px;
+}
+.offerText {
+	padding: 50px 0;
+}
+.offerRed {
+	float:none;
+}
+.offerGrey {
+	color: #616161;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 0;
+	}
+.offer img {
+	width: 100%;
+	margin-top: -206px;
+    margin-left: 116px;
+}
+.offer {
+	width: 250px;
+	background-color: #fff;
+    padding-left: 25px;
+	margin-top:-114px;
+	border-radius: 10px;
+	box-shadow: 2px 2px #8c8c8c;
+}
+.offerinfo {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	color: #6a6a6a;
+	padding: 50px 0 20px 0;
+}
+.from {
+	font-weight: 400;
+	font-size: 14px;
+	padding: 5px 5px 0 67px;
+}
+.btn {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 25px;
+	width: 110px;
+	border: solid 2px #e75152;
+	margin: 10px -10px;
+}
+.whiteBtn{
+	color: #e75152;
+	background: #ffffff;
+}	
+.redBtn {
+	color: #fffefe;
+	background-color: #e75152;
+	margin-right: 5px;
+}
+.firstPackage{
+	margin-top:-82px;
+}
+.secondPackage {
+margin:-99px 0 0 130px;
+}
+.thirdPackage {
+	margin-top: -100px;
+}
+
+
+/***************contact***********/
+.contact{
+ background: #db4d4c;
+}
+.more{
+	padding: 30px 0 15px 0;
+
+}
+.know {
+	padding-left: 90px;
+}
+
+.play{
+    margin: 0 auto;
+    width: 435px;
+    padding: 45px 0
+}
+/***************footer**********/
+.white{
+	color: #ffffff;
+	padding-right: 5px;
+}
+.btm-lft{
+	padding-top: 20px;
+}
+.btm2{
+	font-family: Source Sans Pro;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 13px;
+	padding-top: 65px; 
+}
+.glyphicon {
+	float:left;
+	color: #515151;
+	padding-right: 5px;
+}
+.drop{
+	margin: 65px 0px 0px 0px;
+	border: solid 2px #9e3434;
+	padding-bottom: 0px;
+	background: #cf4749;
+}
+/**************footer************/
+footer{
+	background: #303030;
+}
+
+ul{
+	list-style: none;
+	    float: right;
+    padding-right: 45px;
+
+}
+.btm-menu{
+		padding-left: 45px;
+	
+}
+
+.fa {
+	padding-left: 15px ;
+	
+}
+li{
+	float: left;
+	padding: 15px 0 0 15px;
+}
+
+li a{
+	color:#e7e7e7;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 10px;
+}
+footer p{
+	color:#e7e7e7;
+	color:#e7e7e7;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 10px;
+	padding-left: 63px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width:767px){
+	.container{
+		padding: 0;
+	}
+.navbar-toggle {
+		margin: 0 -40px;
+}
+.logo p{
+	margin:23px 0 -45px -50px;
+	position: absolute;
+}
+.navbar-default{
+	width: 40%;
+	float: right;
+	margin-top: 42px;	
+	position: relative;
+}
+.navbar-default .navbar-toggle {
+    border-color: #515151;
+
+}
+.navbar.navbar-default {
+    background-color: #303030;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-nav li {
+	width:100%;
+	border-left: none;		
+}
+.navbar-collapse {
+	width: 227px;
+}
+.navbar-collapse li {
+	border-bottom: solid 1px #515151;
+}
+.banner {
+	padding-left: 50px;
+}
+.our {
+	padding-left: 115px;
+}
+.more {
+	padding-left: 85px;
+}
+.line {
+	width: 40%;
+}
+.offer {
+	margin-left: 80px;
+}
+.secondPackage {
+	margin: 80px 0 0 80px;
+}
+.btn {
+	margin: 4px 50px;
+}
+.thirdPackage {
+    margin: 70px 74px 0 0px;
+}
+hr {
+	width: 300px;
+	margin-left: -77px;
+}
+.morehr {
+	margin-left: -39px;
+}
+
+.contact {
+	background: #db4d4c;
+}
+.btm-lft{
+	padding-left: 30px;
+}
+.btm2 {
+	width: 80%;
+	padding: 6px 0 0 30px;
+}
+
+.drop {
+	margin-top: -66px;
+}
+.btm-menu {
+	padding-left: 15px;
+}
+.lists {
+	margin-right: 40px;
+	padding: 0px;
+}
+footer p {
+	padding-left: 30px;
+}
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.logo p{
+	padding-top: 33px;
+} 
+.offer {
+	width: 370px;
+	padding-bottom: 20px;
+
+}
+.offer img{
+	margin:-285px 0 0 159px;
+	width: 87%;
+}	
+.offerText{
+	padding: 50px 0 100px 42px;
+}
+.firstPackage {
+	margin:-102px 0 200px 105px;
+
+}
+.secondPackage{
+	margin: -36px 0 0 105px;
+}
+
+.from{
+	padding: 5px 5px 26px 111px;	
+}	
+.whiteBtn{
+	margin-left: 47px;
+}
+.offerinfo{
+	padding: 50px 40px;
+}
+.thirdPackage{
+	margin: 150px 105px 0 0;
+}
+.Us {
+	padding-left: 93px;
+}
+.btm2 {
+	padding-right: 0;
+}
+.btm-menu {
+	padding-left: 20px;
+}
+footer p{
+	margin-top: -23px;
+	padding-left: 38px;
+}
+.lists{
+	padding-left: 50px;
+}
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1200px) {  
+.btn{
+	width: 99px;
+}
+.secondPackage{
+	margin-left: 56px;
+}
+.offer {
+	width: 230px;
+}
+.offer img{
+	margin:-188px 0 0 100px;
+}
+.Us {
+	padding-left: 93px;
+}
+.drop{
+	width: 107px;
+}
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+
+	}
+
+

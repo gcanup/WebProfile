@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	
+	background: #222222;}
+	
+p,h1,h2,h3,h4,h5,h6 {
+	color:#fff;
+}
+
+/******************header Section ***************/
+
+header {
+	padding: 40px 0;}
+	
+.bar {
+	border-left: solid 2px #92ba26; }
+header .btn {
+	background: #92ba26;}
+	
+/******************banner ********/
+
+.banner img {
+	width:100%;}
+	
+/**************menu *************/
+
+.navbar-inverse {
+	background: #74874a; /* Old browsers */
+background: -moz-linear-gradient(top, #74874a 0%, #1f2816 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #74874a 0%,#1f2816 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #74874a 0%,#1f2816 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74874a', endColorstr='#1f2816',GradientType=0 ); /* IE6-9 */
+	border:none;}
+	
+.navbar-inverse .navbar-nav>li>a {    /***taken from inspect, can also be !important ***/	
+    color: #fff;
+}
+.navbar-nav {
+	width:100%;}
+.navbar-nav li {
+	border-right: solid 1px #202701;
+	border-left: solid 1px #e8f99a;
+	width:20%;								/**************this not working *****/
+	box-sizing:border-box;}
+.navbar-nav li:hover {
+	background:#000;}
+	
+	/************content**************/
+hr {
+	border-color:#7faf25 }
+
+.top h3 {
+	color: #92ba26;}
+.mid-ul a{
+	color:#92ba26;
+	}
+.read {
+	background: #999;}
+footer {
+	border-top: solid 2px #334114;					
+	margin: 20px;
+	}
+footer a{
+	color:#92ba26; 
+	}
+.privacy {
+	border-left: solid 2px #92ba26;
+	padding-left: 5px;}
+.foot {
+	padding-top: 10px;}
+
+p {
+	text-align:justify;}
+		
+@media(max-width:768px) {
+.bar {
+	border-left: none;}
+
+footer p{
+	text-center: none;							/*******question in here*****/
+	}
+.navbar-nav li {
+	width:100%;
+	border-left: none;}
+			
+}

@@ -1,0 +1,120 @@
+body {
+	}
+	
+/*************header*****/
+p,h1,h2,h3,h4,h5,h6 {
+	color:#777272;
+}
+p{
+	text-align:justify;
+	line-height: 1.75;}
+	
+a:hover {
+	text-decoration: none;}
+
+header {
+	padding: 40px 0;
+	background:#f0f0f0;}
+.logo img {
+	width: 200px;}
+
+.navbar-default {
+    background-color: #f0f0f0;
+    border-color: #e7e7e7;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}					/******back ground question*****/
+.navbar-nav li {
+	margin-left: 10px;
+	border-radius: 4px;}
+.navbar-nav>li>a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+	
+}
+.navbar-nav a {
+	font-weight:600;}
+.navbar-nav li:hover {
+	background: #e7e7e7;}
+.navbar-default .navbar-nav>li:hover a{
+	color: #000;}
+	
+	
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a  {
+	background-image: none;
+	color:#000;
+	background-color: #e7e7e7;
+	border-radius: 4px;}
+.navbar-default .navbar-nav>.active:hover a {
+	color:#000;}
+/*******************************banner******/
+
+.banner img {
+	width:100%;}
+
+/****************content*****************/
+.content {
+	padding: 30px 0;}
+.lft h2, a {
+	color:#981f4a;}
+.lft h2 {
+	font-size:22px;
+	font-weight:600;}
+
+.lft img {
+	 width: 100px;
+    padding: 40px 0;
+	margin: 0 auto;}
+.rgt p{
+	padding: 10px 0;}
+.rgt h2 {	
+	font-size: 20px;
+	padding-left: 5px;}    /******hot to create space in twitter icon****/
+i{
+	padding-right:10px;}
+.para {
+	margin-top: 40px;
+	background:#f0f0f0;
+	padding: 15px;}
+/************slider*****/
+.slider {
+	padding: 50px;}
+.slider h2 {
+	color:#981f4a;
+	font-weight: 600;
+	font-size:22px;}
+.slider img {
+	width: 100px;
+	margin: 20px;}
+/*********************footer*****/	
+
+
+footer {
+padding-top: 40px;
+background: url(images/foot-bg.png) ;
+background-size:cover;} 
+
+
+footer a,footer p{
+	color:#908181; }
+footer p{
+	margin:0;}
+footer ul {
+	list-style:none;}
+footer i{
+	color: #777272;
+	}
+	
+footer a:hover {
+	color: #fff;}	
+	
+	
+	@media(min-width:768px) {
+	
+	.navbar-collapse {
+		float:none !important;}
+		
+	}
+	
+	
